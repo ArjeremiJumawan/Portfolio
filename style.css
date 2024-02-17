@@ -8,7 +8,7 @@
   }
   body
   {
-    background-color: #cbf4ff;
+    background-color: #f8f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,17 +21,17 @@
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #ffff;
-    margin: 50px;
+    background: #fcfbfc;
+    margin: 0px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.5fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0,.1);
   }
   .container .left_Side 
   {
     position:relative;
-    background: #cd5a4b;
-    padding: 50px;
+    background: #86139a;
+    padding: 10px;
   }
   .profileText
   {
@@ -45,8 +45,8 @@
   .profileText .imgBx
   {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -61,7 +61,7 @@
   }
   .profileText h2
   {
-    color: #ffff;
+    color: #fffcfc;
     font-size: 1.5em;
     margin-top: 40px;
     text-transform: uppercase;
@@ -74,10 +74,105 @@
     font-size: 0.8em;
     font-weight: 300;
   }
+  .details
+  {
+    padding-top: 40px;
+  }
+  .title
+  {
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .details ul
+  {
+    position: relative;
+  }
+  .details ul li
+  {
+    font-size: 0.8em;
+    list-style: none;
+    font-size: 0.8em;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  .details ul li .icon
+  {
+    display: inline-block;
+    width: 20px;
+    font-size: 15px;
+    color: #040404;
+  }
+  .details ul li span
+  {
+    color: #ffff;
+    font-weight: 300;
+  }
+  .language
+  {
+    padding-top: 20px;
+  }
+  .title
+  {
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .language ul
+  {
+    position: relative;
+  }
+  .language ul li
+  {
+    color: #ffff;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  .language ul li h2 span
+  {
+    color: #ffff;
+    font-weight: 300;
+  }
+  .language h2 span
+  {
+    font-size: 0.7em;
+    font-weight: 40;
+  }
+  .hobbies
+  {
+    padding-top: 20px;
+  }
+  .title
+  {
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .hobbies ul
+  {
+    position: relative;
+  }
+  .hobbies ul li
+  {
+    color: #ffff;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+
   .container .right_Side 
   {
     position:relative;
-    background: #faf8f8;
-    padding: 50px;
+    background: #e177f9;
+    padding: 60%;
   }
 
